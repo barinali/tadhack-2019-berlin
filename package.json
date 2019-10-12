@@ -1,0 +1,20 @@
+{
+  "name": "tadhack-berlin-2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/index.js",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "telesignsdk": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node .",
+    "start:watch": "nodemon --exec npm start --watch ./server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
